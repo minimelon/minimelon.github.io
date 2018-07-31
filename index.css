@@ -1,0 +1,26 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td,li,footer{ margin:0; padding:0; }
+
+section{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height:100vh;
+    background: linear-gradient(45deg, #26C9FF,#7f26fb); 
+    text-align: center;
+    text-transform: capitalize;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:thistle;
+}
+
+h1{
+    font-size: 46px;
+    
+}
+h2{
+    font-size: 38px;
+    
+}
+h3{
+    font-size: 36px;
+    
+}
