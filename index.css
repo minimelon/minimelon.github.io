@@ -2,6 +2,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input
 
 body{
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: #fff;
 }
 header{
 	background-color: rgba(23, 12, 18, 0.9);
@@ -12,17 +13,17 @@ header{
 	align-items: center;
 }
 #logo{
-	width:80px;
-	margin:0 10px;
+	margin:10px 10px;
+	height: 50px;
 }
 #logo img{
-	width:100%;
+	height:100%;
 	display: block;
 }
 
 nav{
     /* background-color: rgba(138, 43, 226,0.5); */
-    font-size:20px;
+    font-size:18px;
 	text-transform: uppercase;
 	width: auto;
 	height: 100%;
@@ -41,7 +42,7 @@ nav a{
     color:rgb(255, 255, 255);
 	transition:font-size 300ms;
 	transition: border 300ms;
-	line-height: 40px;
+	line-height: 25px;
 	text-align: center;
 	margin:0 10px;
 	width:120px;
@@ -50,7 +51,7 @@ nav a{
 }  
 nav a:hover{
 	border:2px solid rgba(255, 255, 255, 1);
-    font-size:25px; 
+    font-size:22px; 
     animation-name: navanim;
     animation-duration: 300ms;
     animation-timing-function: ease-in; 
@@ -75,11 +76,13 @@ nav a:hover{
 	background-size:cover;
     background-attachment:fixed;
 	background-color:#CCCCCC;
-	/* background: linear-gradient(45deg, #26C9FF,#7f26fb); */
 	font-size: 3em;
+	color:green;
+	text-align: center;
 	text-transform: capitalize;
 	height:100vh;
 	display: flex;
+	-ms-display:flex;
 	flex-flow: column wrap;
 	align-items: center;
 	justify-content: center;
@@ -89,6 +92,7 @@ nav a:hover{
 	font-size: 1em;
 	height:auto;
 	display:flex;
+	-ms-display:flex;
 	flex-flow:row nowrap;
 	justify-content: space-between;
 	align-items: center;
@@ -97,27 +101,29 @@ nav a:hover{
 #about-text{
 	text-align: justify;
 	margin: 10px;
-	
+	flex:auto;
 	
 }
 #about-text h3{
 	font-size: 2em;
 }
 #about-img{
-	width:100%;
+	flex:auto;
 	
 }
 #about-img img{
 	display: block;
-	width:100%;
+	width: 100%;
 }
 /**************************************************************/
 
 #product-title{
+	height: auto;
+	background-color: #CCCCCC;
 	font-size: 2em;
 	text-transform: capitalize;
 	text-align: center;
-	margin:30px 0;
+	padding:30px 0;
 }
 
 /***************************************************************/
@@ -126,8 +132,10 @@ nav a:hover{
 	background-color: #CCCCCC;
 	/* height:100vh; */
 	display:flex;
+	-ms-display:flex;
 	flex-flow: row nowrap;
 	justify-content: space-around;
+	font-size: 1em;
 }
 .service{
 	text-align: center;
@@ -138,18 +146,28 @@ nav a:hover{
 }
 .service h4{
 	font-size: 1.3em;
-	text-transform: capitalize;
+	text-transform: uppercase;
 	margin:20px 0;
-	background-color: aqua;
+	/* background-color: aqua; */
 }
 .service img{
 	width: 100%;
 }
 .service p{
-    font-size: 1em;
-    text-align: left;
-    padding:10px;
+	margin:10px 0;
+	line-height: 30px;
+	
 }
+.service span{
+	text-transform: uppercase;
+	/* border:1px solid white; */
+	border-radius: 10px;
+	background-color:  rgb(124, 124, 124); 
+	color:white;
+	margin:0 5px;
+	padding:0 10px;
+}
+
 /**************************************************************/
 
 #footer{
@@ -160,7 +178,7 @@ nav a:hover{
 	padding:10px;
 }
 .bottom-line{
-    letter-spacing: -1px;
+    letter-spacing: -2px;
     color: #ddd;
 }
 
@@ -172,12 +190,15 @@ nav a:hover{
 	}
 	#product{
 		display:flex;
+		-ms-display:flex;
 		flex-flow: column nowrap;
 		align-items: center;
 	}
 
 	header{
 		display: flex;
+		-ms-display:flex;
 		flex-flow: column nowrap;
+		position:static;
 	}
 }
