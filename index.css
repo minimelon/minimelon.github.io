@@ -76,16 +76,21 @@ nav a:hover{
 	background-size:cover;
     background-attachment:fixed;
 	background-color:#CCCCCC;
-	font-size: 3em;
+	font-size: 48px;
 	color:green;
 	text-align: center;
 	text-transform: capitalize;
+	font-weight: bold;
 	height:100vh;
 	display: flex;
 	-ms-display:flex;
 	flex-flow: column wrap;
 	align-items: center;
 	justify-content: center;
+}
+#welcome span{
+	font-size: 56px;
+	color: rgb(150, 0, 150)
 }
 #about{
 	background-color: gainsboro;
@@ -104,7 +109,7 @@ nav a:hover{
 	flex:auto;
 	
 }
-#about-text h3{
+#about-text h1{
 	font-size: 2em;
 }
 #about-img{
