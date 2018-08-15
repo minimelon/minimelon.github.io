@@ -77,7 +77,7 @@ nav a:hover{
     background-attachment:fixed;
 	background-color:#CCCCCC;
 	font-size: 48px;
-	color:rgb(125, 0, 0);
+	color:rgb(0, 0, 0);
 	text-align: center;
 	text-transform: capitalize;
 	font-weight: bold;
@@ -90,7 +90,7 @@ nav a:hover{
 }
 #welcome span{
 	font-size: 56px;
-	color: rgb(125, 0, 0);
+	color: rgb(255, 255, 255);
 }
 #about{
 	background-color: gainsboro;
