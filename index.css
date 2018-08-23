@@ -13,8 +13,8 @@ header{
 	align-items: center;
 }
 #logo{
-	margin:10px 10px;
-	width: 80px;
+	margin:2px 50px;
+	width: 100px;
 }
 #logo img{
 	width:100%;
@@ -22,14 +22,12 @@ header{
 }
 
 nav{
-    /* background-color: rgba(138, 43, 226,0.5); */
     font-size:18px;
 	text-transform: uppercase;
 	width: auto;
 	height: 100%;
 }
 ul{
-	/* background-color: aqua; */
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
@@ -60,9 +58,6 @@ nav a:hover{
     0%{
 		text-shadow:0px 0px 0px #fff;
     }
-    /* 50%{
-        text-shadow:0px 0px 50px gray;
-    } */
     100%{
 		text-shadow:0px 0px 100px #fff;
     }
@@ -77,7 +72,7 @@ nav a:hover{
     background-attachment:fixed;
 	background-color:#CCCCCC;
 	font-size: 48px;
-	color:rgb(0, 0, 0);
+	color:rgb(151, 0, 0);
 	text-align: center;
 	text-transform: capitalize;
 	font-weight: bold;
@@ -124,7 +119,7 @@ nav a:hover{
 
 #product-title{
 	height: auto;
-	background-color: #CCCCCC;
+	background-color: gainsboro;
 	font-size: 2em;
 	text-transform: capitalize;
 	text-align: center;
@@ -134,8 +129,7 @@ nav a:hover{
 /***************************************************************/
 
 #product{
-	background-color: #CCCCCC;
-	/* height:100vh; */
+	background-color: gainsboro;
 	display:flex;
 	-ms-display:flex;
 	flex-flow: row nowrap;
@@ -144,7 +138,6 @@ nav a:hover{
 }
 .service{
 	text-align: center;
-	/* width:30%; */
 	border:1px solid black;
 	height:auto;
 	margin:20px 20px;
@@ -153,7 +146,6 @@ nav a:hover{
 	font-size: 1.3em;
 	text-transform: uppercase;
 	margin:20px 0;
-	/* background-color: aqua; */
 }
 .service img{
 	width: 100%;
@@ -165,7 +157,6 @@ nav a:hover{
 }
 .service span{
 	text-transform: uppercase;
-	/* border:1px solid white; */
 	border-radius: 10px;
 	background-color:  rgb(124, 124, 124); 
 	color:white;
