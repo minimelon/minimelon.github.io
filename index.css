@@ -87,6 +87,9 @@ nav a:hover{
 	font-size: 56px;
 	color: rgb(255, 255, 255);
 }
+#welcome h1{
+	font-size:36px;
+}
 #about{
 	background-color: gainsboro;
 	font-size: 1em;
